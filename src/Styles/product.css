@@ -1,0 +1,64 @@
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: whitesmoke ;
+    column-gap: 10px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 0 auto;
+    width: 100vw;
+
+}
+
+.crafted {
+    margin-left: 20px;
+}
+
+.crafted p {
+    font-size: 0.78rem;
+    color:rgba(0, 0, 0, 0.329)
+
+}
+
+.crafted h3 {
+    width: 50%;
+}
+
+.crafted button {
+    border-radius: 30px;
+    border: none;
+    padding: 0.5rem;
+    width: 30%;
+    margin-top: 0.75rem;
+}
+
+.crafted button:hover {
+    background-color: rgba(0, 0, 0, 0.329)
+}
+
+.product {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product h4 {
+    margin-top: 0.1rem;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.product p {
+    margin-top: 0;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.display {
+    display: none;
+}
